@@ -1,0 +1,11 @@
+httpx
+fastapi
+pandas
+pillow
+prophet
+pydantic
+pytest
+requests
+streamlit
+uvicorn
+watchdog
