@@ -16,10 +16,3 @@ def make_prediction(date: UserPredDate) -> dict[str, str]:
     prediction_date = str(year +"-"+ month +"-"+"01")
     value = load_model_and_predict(prediction_date)
     return {"prediction":str(value)}
-
-if __name__ == "__main__":
-    uvicorn.run("backend:app",
-                host='127.0.0.1',
-                port=8000,
-                reload=True,
-                log_level="info")
