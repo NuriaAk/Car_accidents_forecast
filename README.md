@@ -16,6 +16,7 @@ Month: '01'
 
 ## The app
 * Api endpoint with prediction is hosted here: [Click this link](https://road-accidents-forecast.onrender.com/predict)
+* To test the endpoint [Click this link](https://road-accidents-forecast.onrender.com/docs)
 * Web app that contain prediction and visualisation is located here: [Click this link](https://road-accidents-forecast.streamlit.app/)
 
 ## Visualisation
